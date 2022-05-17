@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" 
+  integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">  
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+<body>
+
+  <!-- App -->
+  <div class="container flex justify-center items-center flex-col align-center h-screen">
+    <div class="card p-5 rounded-xl">
+      <div class="images">
+      <img class="rounded-lg" src="/images/image-equilibrium.jpg" alt="Equilibrium" width="256">
+      <div class="img-overlay">
+        <img src="/images/icon-view.svg" alt="View">
+      </div>
+      </div>
+      <!-- Desc -->
+     <h5 class="nama text-white py-3 mt-2">
+      Equilibrium #3429
+    </h5>
+    <p>
+      Our Equilibrium collection promotes <br> balance and calm.
+    </p>
+    <!-- Footer -->
+      <div class="grid grid-cols-2 gap-12 mb-5" >
+          <div>
+            <img class="inline-block" src="/images/icon-ethereum.svg" alt="icon-ethereum">
+            <h5 class="ml-2 text-sm inline-block" >
+            0.041 ETH
+            </h5>
+          </div>
+          <div>
+            <img class="inline-block" src="/images/icon-clock.svg" alt="icon-clock">
+            <p class="ml-2 inline-block">
+              3 days left
+            </p>
+          </div>
+        </div>
+        <hr>
+        <!-- Creator -->
+      <div class="mt-3">
+        <img class="avatar rounded-3xl inline-block" src="/images/image-avatar.png" alt="image-avatar" width="35px">
+        <p class="inline-block text-xs ml-3 font-bold">
+          Creation of <span class="text-white">Jules Wyvern</span>
+        </p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution flex justify-center ">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>. 
+    Coded by <a href="#"> Adi Setiawan</a>.
+  </div>
+</body>
+</html>
